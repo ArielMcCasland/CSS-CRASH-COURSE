@@ -261,7 +261,7 @@ body {
   background-color: aqua;
   color: rgb(98, 2, 117);
 }
-.box__animation {
+.box {
   @keyframes slideFade {
     from {
     transform: translateX(-100px);
@@ -275,5 +275,6 @@ body {
 
   .box {
   animation: slideFade 2s ease-out;
+  animation-delay: 3s;
   }
 }
